@@ -7,16 +7,28 @@
     "next:build": "next build",
     "next:start": "next start",
     "css:dev": "mix watch",
-    "css:build": "mix build --production"
+    "css:build": "mix build --production",
+    "lint": "eslint */**/*.ts{,x}",
+    "lint:fix": "eslint */**/*.ts{,x} --fix"
   },
   "dependencies": {
     "next": "10.2.3",
+    "prop-types": "^15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@types/react": "17.0.8",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
     "autoprefixer": "^10.2.6",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "laravel-mix": "^6.0.19",
     "postcss": "^8.3.0",
     "tailwindcss": "^2.1.2",
