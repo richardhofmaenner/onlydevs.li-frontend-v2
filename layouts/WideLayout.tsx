@@ -10,6 +10,7 @@ function WideLayout({ title, description, children }: { title: string, descripti
         <title>{title} | Onlydevs.li</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <script data-goatcounter="https://terillos.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </Head>
       <main className="mt-16">
         <div className="mx-auto w-10/12 sm:w-4/5 lg:w-2/3">
