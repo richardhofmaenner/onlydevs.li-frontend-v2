@@ -22,11 +22,11 @@ Home.propTypes = {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch('https://api.onlydevs.li/v1/streams/all')
-  const json = await res.json()
+  const resStreams = await fetch('https://api.onlydevs.li/v1/streams/all')
+  const jsonStream = await resStreams.json()
   return {
     props: {
-      streams: json.data,
+      streams: jsonStream.data,
     },
   }
 }
